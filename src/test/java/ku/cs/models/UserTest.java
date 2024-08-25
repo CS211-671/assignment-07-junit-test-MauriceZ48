@@ -34,7 +34,7 @@ class UserTest {
     @Test
     void testUsername(){
         User user = new User("user01", "plain-p@ssw0rd");
-        boolean actual = user.isUsername("plain-p@ssw0rd");
+        boolean actual = user.isUsername("user01");
         assertTrue(actual);
 
     }
